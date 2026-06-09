@@ -257,6 +257,17 @@ export function useGame(): UseGame {
     saveHighScores(state.topScores)
   }, [state.topScores])
 
+  // When embedded (e.g. on peytzgames.com), report the final score to the
+  // host page so it can post it to the online leaderboard.
+  useEffect(() => {
+    if (state.phase === 'over' && window.parent !== window) {
+      window.parent.postMessage(
+        { type: 'blocks:gameover', score: state.score },
+        '*',
+      )
+    }
+  }, [state.phase])
+
   return { state, settings, start, updateSettings }
 }
 
