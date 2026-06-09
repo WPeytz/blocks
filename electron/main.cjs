@@ -1,5 +1,5 @@
 // Electron main process. Wraps the built React app in a native macOS window so
-// "Offline Blocks" runs as a standalone .app in the dock — fully offline.
+// "Blocks" runs as a standalone .app in the dock — fully offline.
 const { app, BrowserWindow, Menu, shell } = require('electron')
 const path = require('node:path')
 
@@ -13,7 +13,7 @@ function createWindow() {
     minWidth: 720,
     minHeight: 640,
     backgroundColor: '#07080f', // matches the app background, avoids white flash
-    title: 'Offline Blocks',
+    title: 'Blocks',
     show: false,
     webPreferences: {
       contextIsolation: true,

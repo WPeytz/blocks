@@ -36,7 +36,7 @@ export default function App() {
 
           {phase === 'ready' && (
             <Overlay>
-              <h2 className="overlay-title">Offline Blocks</h2>
+              <h2 className="overlay-title">Blocks</h2>
               <p className="overlay-sub">Stack, clear, and chase a high score.</p>
               <button className="cta" onClick={start}>
                 Press <kbd>Enter</kbd> to Start

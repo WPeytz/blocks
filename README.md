@@ -1,4 +1,4 @@
-# Offline Blocks
+# Blocks
 
 A polished, offline-first, single-player falling-block puzzle game built with
 Vite + React + TypeScript. Original game inspired by common genre mechanics — no

@@ -1,10 +1,10 @@
 {
-  "name": "offline-blocks",
+  "name": "blocks",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Offline Blocks — an original offline falling-block puzzle game.",
-  "author": "Offline Blocks",
+  "description": "Blocks — an original offline falling-block puzzle game.",
+  "author": "Blocks",
   "main": "electron/main.cjs",
   "scripts": {
     "dev": "vite",
@@ -31,7 +31,7 @@
   },
   "build": {
     "appId": "com.offlineblocks.game",
-    "productName": "Offline Blocks",
+    "productName": "Blocks",
     "directories": {
       "output": "release"
     },
