@@ -23,7 +23,7 @@ export default function App() {
     <div className="app">
       <header className="title-bar">
         <h1 className="game-title">
-          <span className="title-offline">Offline</span> <span className="title-blocks">Blocks</span>
+          <span className="title-blocks">Blocks</span>
         </h1>
         <p className="tagline">A modern falling-block puzzle</p>
       </header>
