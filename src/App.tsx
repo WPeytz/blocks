@@ -75,7 +75,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        Original puzzle game · runs fully offline · no tracking
+        Original puzzle game · no tracking
       </footer>
     </div>
   )
